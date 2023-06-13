@@ -1,0 +1,144 @@
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.main_div {
+    border: 1px solid rgba(8, 16, 16, .15);
+    height: 32rem;
+    width: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 30px;
+}
+
+.top_text {
+    font-weight: bold;
+}
+
+.signin {
+    margin: 10px 0px 0px 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.close_butn {
+    margin: -32px 10px 0px 0px;
+    text-align: right;
+    font-size: 22px;
+}
+
+.site_login {
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.auth-welcome {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: #080f0fd9;
+    font-size: 18px;
+}
+
+p {
+    color: #080f0fbf;
+}
+
+.signin_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_input {
+    background: #F2F5FA;
+    border: 1px solid #0a1e321a;
+    border-radius: 13px;
+    box-sizing: border-box;
+    color: #2c3d4f;
+    display: flex;
+    font-size: 15px;
+    font-weight: 550;
+    height: 45px;
+    line-height: 1.5;
+    margin: 5px auto;
+    padding: 0 10px;
+    width: 90%;
+}
+
+.sm-eye-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 30rem;
+    top: 53.5%;
+    width: 30px;
+}
+
+.forget-password {
+    color: #f3912e;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: right;
+    margin: 0px 22px 8px 0px;
+}
+
+.login_btn {
+    background: #f3912e;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    height: 40px;
+    margin: 5px auto;
+    opacity: 1;
+    width: 90%;
+}
+
+.bottom_row {
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.get_started {
+    color: #f3912e;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.sm-saperator {
+    border: 1px solid #22283133;
+    display: flex;
+    height: 1px;
+    margin: 10px auto 25px;
+    width: 70%;
+}
+
+.sm-saperator>span {
+    background-color: white;
+    color: #2c3d4f;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    line-height: 18px;
+    margin: -10px auto;
+    width: 30px;
+    text-align: center;
+}
+.sm-google-login{
+    text-align: center;
+}
+
+
